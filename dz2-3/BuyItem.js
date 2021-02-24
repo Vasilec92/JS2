@@ -10,7 +10,7 @@ class BuyItem {
     this.imageUrl = imageUrl;
   }
   delateItem = () => {
-    console.log(this);
+    console.log(this.name);
     console.log("delete");
   };
   render() {

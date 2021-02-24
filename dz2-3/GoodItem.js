@@ -12,11 +12,9 @@ class GoodItem {
   addToCart = () => {
     console.log(this);
     const buy = new BuyItem({ ...this });
-    card.addToCart({ ...buy });
-    console.log(buy);
+    card.addToCart(buy);
     console.log(card);
-    buy.render();
-    console.log("add");
+    card.render();
   };
   render() {
     // находим место куда рендерить

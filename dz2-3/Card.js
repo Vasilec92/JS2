@@ -10,6 +10,9 @@ class Card {
   }
 
   render() {
-    return this.items.map((elm) => console.log(elm));
+    document.querySelector(".buy-list").innerHTML = "";
+    return this.items.forEach((BuyItem) => {
+      BuyItem.render();
+    });
   }
 }
