@@ -1,2 +1,2 @@
-const ListInstance = new List();
-const card = new Card();
+const cart = new Cart();
+const ListInstance = new List(cart);

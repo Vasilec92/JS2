@@ -1,7 +1,7 @@
 class List {
   items = [];
 
-  constructor() {
+  constructor(cart) {
     // Забираем массив со свойствами товаров, на основе которых будем создавать объекты товароы
     this.fetchGoods()
       .then((response) => {
@@ -9,7 +9,7 @@ class List {
       })
       .then((response) => {
         const goods = response.data.map((cur) => {
-          return new GoodItem(cur);
+          return new GoodItem(cur, cart);
         });
         // поштучно добавляем объекты в наш список
         // ссылка на статью про spread оператор ниже

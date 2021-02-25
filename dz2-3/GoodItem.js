@@ -2,19 +2,21 @@ class GoodItem {
   name = "";
   price = 0;
   imageUrl = "";
+  cart = null;
 
   // в аргументах применена деструктуризация (ссылка на статью ниже)
-  constructor({ name, price, imageUrl }) {
+  constructor({ name, price, imageUrl }, cart) {
     this.name = name;
     this.price = price;
     this.imageUrl = imageUrl;
+    this.cart = cart;
   }
   addToCart = () => {
     console.log(this);
     const buy = new BuyItem({ ...this });
-    card.addToCart(buy);
-    console.log(card);
-    card.render();
+    this.cart.addToCart(buy);
+    console.log(cart);
+    cart.render();
   };
   render() {
     // находим место куда рендерить
