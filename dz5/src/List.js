@@ -1,4 +1,4 @@
-class List {
+export default class List {
   items = [];
 
   constructor(cart) {

@@ -1,0 +1,23 @@
+{
+  "name": "js2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Anna Vasileva",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "path": "^0.12.7"
+  }
+}

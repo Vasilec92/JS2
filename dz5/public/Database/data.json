@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Shirt",
+      "price": 150,
+      "imageUrl": "https://picsum.photos/id/23/150/160"
+    },
+    {
+      "name": "Socks",
+      "price": 50,
+      "imageUrl": "https://picsum.photos/id/123/150/160"
+    },
+    {
+      "name": "Jacket",
+      "price": 350,
+      "imageUrl": "https://picsum.photos/id/26/150/160"
+    },
+    {
+      "name": "Shoes",
+      "price": 250,
+      "imageUrl": "https://picsum.photos/id/28/150/160"
+    }
+  ]
+}
