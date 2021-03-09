@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default class BuyItem {
   name = "";
   price = 0;

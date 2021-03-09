@@ -1,3 +1,6 @@
+import BuyItem from "./BuyItem";
+import Button from "./Button";
+
 export default class GoodItem {
   name = "";
   price = 0;

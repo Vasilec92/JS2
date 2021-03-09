@@ -1,3 +1,5 @@
+import GoodItem from "./GoodItem";
+
 export default class List {
   items = [];
 

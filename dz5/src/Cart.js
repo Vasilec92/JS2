@@ -1,3 +1,5 @@
+import BuyItem from "./BuyItem";
+
 export default class Cart {
   items = [];
 
